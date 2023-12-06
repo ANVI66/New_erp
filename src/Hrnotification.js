@@ -3,17 +3,6 @@ import React, { useState } from 'react';
 const InterviewTable = ({ data }) => {
   const [showForm, setShowForm] = useState(false);
   const [selectedCandidate, setSelectedCandidate] = useState(null);
-
-
-
-
-
-
-
-
-
-
-  
   const handleButtonClick = (index) => {
     // Set the selected candidate based on the index
     setSelectedCandidate(data[index]);
